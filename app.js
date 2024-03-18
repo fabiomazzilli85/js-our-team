@@ -1,3 +1,5 @@
+// Questo è l'Array contente la lista delle persone che compongono il nostro team.
+
 const personale = [
     {
       nome: "Wayne Barnett",
@@ -31,3 +33,8 @@ const personale = [
       }
   ];
   
+
+  // Mi accerto che la console del browser restituisca i valori che presumo di visualizzare
+  console.log(personale[0].nome); // Ok
+  console.log(personale[2].ruolo);  // Ok
+  console.log(personale[1].foto); // Ok
